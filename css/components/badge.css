@@ -1,0 +1,12 @@
+.badge {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* display: block; span은 width, height 적용 안되니 작성 하지만 flex를 사용하기 위해 지움*/
+  color: white;
+  font-weight: 600;
+}

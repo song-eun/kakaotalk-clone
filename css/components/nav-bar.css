@@ -1,0 +1,47 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  color: #2e363e;
+  text-decoration: none;
+  position: relative;
+}
+
+.nav__notification {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* display: block; span은 width, height 적용 안되니 작성 하지만 flex를 사용하기 위해 지움*/
+  color: white;
+  font-weight: 600;
+  position: absolute; /* 앞으로 나와 겹치기 위해 */
+  left: 20px;
+  bottom: 15px;
+}
+
+.nav__new-notification {
+  background-color: tomato;
+  width: 7px;
+  height: 7px;
+  border-radius: 3.5px;
+  display: block;
+  position: absolute;
+  left: 28px;
+  bottom: 27px;
+}

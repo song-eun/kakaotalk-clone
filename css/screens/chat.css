@@ -1,6 +1,6 @@
 #chat-screen {
   background-color: #abc1d1;
-  height: 500vh;
+  height: 100vh;
 }
 
 #chat-screen .alt-header {
@@ -78,6 +78,11 @@
   border-radius: 15px;
   border-top-left-radius: 0px;
   margin-right: 5px;
+}
+
+.message__bubble img {
+  height: 150px;
+  width: 150px;
 }
 
 .message__author,

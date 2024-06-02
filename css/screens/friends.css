@@ -37,7 +37,7 @@
 }
 
 #splash-screen {
-  background-color: var(--yellow);
+  background-color: var(--green);
   position: absolute;
   height: 100vh;
   width: 100vw;
@@ -48,4 +48,5 @@
   font-size: 132px;
   animation: hideSplashScreen 0.3s ease-in-out forwards;
   animation-delay: 2s;
+  color: white;
 }

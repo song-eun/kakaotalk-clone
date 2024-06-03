@@ -25,6 +25,11 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+body::-webkit-scrollbar {
+  display: none; /* 스크롤바 숨기기 */
+}
+
 .main-screen {
+  height: 100vh;
   padding: 0px var(--horizontal-space);
 }

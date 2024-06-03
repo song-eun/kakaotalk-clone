@@ -1,5 +1,5 @@
 .alt-header {
-  padding: calc(var(--horizontal-space) + 20px) 25px;
+  padding: calc(var(--horizontal-space)) 25px;
   margin-bottom: 15px;
   display: flex;
   justify-content: center;

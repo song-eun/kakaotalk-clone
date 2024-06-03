@@ -30,6 +30,5 @@ body::-webkit-scrollbar {
 }
 
 .main-screen {
-  height: 100vh;
   padding: 0px var(--horizontal-space);
 }

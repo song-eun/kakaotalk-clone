@@ -1,161 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="css/styles.css" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chat - Kokoa Clone</title>
-  </head>
 
-  <body id="chat-screen">
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span>No Service</span>
-        <i class="fa-solid fa-wifi"></i>
-      </div>
-      <div class="status-bar__column">
-        <span>18:43</span>
-      </div>
-      <div class="status-bar__column">
-        <span>100%</span>
-        <i class="fa-solid fa-battery-full fa-lg"></i>
-        <i class="fa-solid fa-bolt"></i>
+<head>
+  <link rel="stylesheet" href="css/styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chat - Kokoa Clone</title>
+</head>
+
+<body id="chat-screen">
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <i class="fa-solid fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>18:43</span>
+    </div>
+    <div class="status-bar__column">
+      <span>100%</span>
+      <i class="fa-solid fa-battery-full fa-lg"></i>
+      <i class="fa-solid fa-bolt"></i>
+    </div>
+  </div>
+
+  <header class="alt-header">
+    <div class="alt-header__column">
+      <a href="javascript:history.back();"><i class="fa-solid fa-angle-left fa-2x"></i></a>
+    </div>
+    <div class="alt-header__column">
+      <h1 class="alt-header__title">하치와레</h1>
+    </div>
+    <div class="alt-header__column">
+      <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+      <span><i class="fa-solid fa-bars fa-lg"></i></span>
+    </div>
+  </header>
+
+  <main class="main-screen main-chat">
+    <div class="chat__timestamp">Sunday, June 02, 2024</div>
+
+
+    <div class="message-row">
+      <img src="./img/HACHIWARE_profile.png" />
+      <div class="message-row__content">
+        <span class="message__author">하치와레</span>
+        <div class="message__info">
+          <span class="message__bubble">이거 그거잖아...</span>
+          <span class="message__time"></span>
+        </div>
       </div>
     </div>
 
-    <header class="alt-header">
-      <div class="alt-header__column">
-        <a href="javascript:history.back();"
-          ><i class="fa-solid fa-angle-left fa-2x"></i
-        ></a>
-      </div>
-      <div class="alt-header__column">
-        <h1 class="alt-header__title">하치와레</h1>
-      </div>
-      <div class="alt-header__column">
-        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-        <span><i class="fa-solid fa-bars fa-lg"></i></span>
-      </div>
-    </header>
-
-    <main class="main-screen main-chat">
-      <div class="chat__timestamp">Sunday, June 02, 2024</div>
-
-      <div class="message-row">
-        <img
-          src="https://i.namu.wiki/i/S3_Y0_fB3jfViXl80GUgDZeR0Ku_7V61o0s-gSHEamtqTMJgJvDrzhy6Ou-hwjjaEs_7R0RDeUnrklwNW0EnBhRrWvIyaupFtg2FP-x0zd76238VbjifW6UN1btxI1jMlGdF3d0P85Tx1CFlzruzhA.webp"
-        />
-        <div class="message-row__content">
-          <span class="message__author">하치와레</span>
-          <div class="message__info">
-            <span class="message__bubble">이거 그거잖아...</span>
-            <span class="message__time"></span>
-          </div>
+    <div class="message-row">
+      <img src="./img/HACHIWARE_profile.png" />
+      <div class="message-row__content">
+        <span class="message__author"> </span>
+        <div class="message__info">
+          <span class="message__bubble">이거 말야! 완전 그거 잖아! 고양이의!</span>
+          <span class="message__time">21:27</span>
         </div>
       </div>
-
-      <div class="message-row">
-        <img
-          src="https://i.namu.wiki/i/S3_Y0_fB3jfViXl80GUgDZeR0Ku_7V61o0s-gSHEamtqTMJgJvDrzhy6Ou-hwjjaEs_7R0RDeUnrklwNW0EnBhRrWvIyaupFtg2FP-x0zd76238VbjifW6UN1btxI1jMlGdF3d0P85Tx1CFlzruzhA.webp"
-        />
-        <div class="message-row__content">
-          <span class="message__author"> </span>
-          <div class="message__info">
-            <span class="message__bubble"
-              >이거 말야! 완전 그거 잖아! 고양이의!</span
-            >
-            <span class="message__time">21:27</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="message-row">
-        <img
-          src="https://i.namu.wiki/i/S3_Y0_fB3jfViXl80GUgDZeR0Ku_7V61o0s-gSHEamtqTMJgJvDrzhy6Ou-hwjjaEs_7R0RDeUnrklwNW0EnBhRrWvIyaupFtg2FP-x0zd76238VbjifW6UN1btxI1jMlGdF3d0P85Tx1CFlzruzhA.webp"
-        />
-        <div class="message-row__content">
-          <span class="message__author"> </span>
-          <div class="message__info">
-            <span class="message__bubble"
-              ><img src="./img/스핑크스.png"
-            /></span>
-            <span class="message__time">21:27</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="message-row">
-        <img
-          src="https://i.namu.wiki/i/S3_Y0_fB3jfViXl80GUgDZeR0Ku_7V61o0s-gSHEamtqTMJgJvDrzhy6Ou-hwjjaEs_7R0RDeUnrklwNW0EnBhRrWvIyaupFtg2FP-x0zd76238VbjifW6UN1btxI1jMlGdF3d0P85Tx1CFlzruzhA.webp"
-        />
-        <div class="message-row__content">
-          <span class="message__author"> 하치와레 </span>
-          <div class="message__info">
-            <span class="message__bubble">그치그치!! 맞지!!!</span>
-            <span class="message__time">21:27</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="message-row message-row--own">
-        <div class="message-row__content">
-          <div class="message__info">
-            <span class="message__bubble">웅웅</span>
-            <span class="message__time">21:27</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="message-row">
-        <img
-          src="https://i.namu.wiki/i/S3_Y0_fB3jfViXl80GUgDZeR0Ku_7V61o0s-gSHEamtqTMJgJvDrzhy6Ou-hwjjaEs_7R0RDeUnrklwNW0EnBhRrWvIyaupFtg2FP-x0zd76238VbjifW6UN1btxI1jMlGdF3d0P85Tx1CFlzruzhA.webp"
-        />
-        <div class="message-row__content">
-          <span class="message__author"> 하치와레 </span>
-          <div class="message__info">
-            <span class="message__bubble">이 자세</span>
-            <span class="message__time">21:27</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="message-row">
-        <img
-          src="https://i.namu.wiki/i/S3_Y0_fB3jfViXl80GUgDZeR0Ku_7V61o0s-gSHEamtqTMJgJvDrzhy6Ou-hwjjaEs_7R0RDeUnrklwNW0EnBhRrWvIyaupFtg2FP-x0zd76238VbjifW6UN1btxI1jMlGdF3d0P85Tx1CFlzruzhA.webp"
-        />
-        <div class="message-row__content">
-          <span class="message__author"> </span>
-          <div class="message__info">
-            <span class="message__bubble"
-              ><img src="./img/스핑크스_하치와레.png"
-            /></span>
-            <span class="message__time">21:27</span>
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <form class="reply">
-      <div class="reply__column">
-        <i class="fa-regular fa-square-plus fa-lg"></i>
-      </div>
-
-      <div class="reply__column">
-        <input type="text" placeholder="Write a message" />
-        <i class="fa-regular fa-face-smile fa-lg"></i>
-        <button>
-          <i class="fa-solid fa-arrow-up"></i>
-        </button>
-      </div>
-    </form>
-
-    <div id="no-mobile">
-      <span>Your screen is too big ㅠㅠ</span>
     </div>
 
-    <script
-      src="https://kit.fontawesome.com/f85af380fd.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <div class="message-row">
+      <img src="./img/HACHIWARE_profile.png" />
+      <div class="message-row__content">
+        <span class="message__author">하치와레</span>
+        <div class="message__info">
+          <span class="message__bubble"><img src="./img/스핑크스.png" /></span>
+          <span class="message__time"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="message-row">
+      <img src="./img/HACHIWARE_profile.png" />
+      <div class="message-row__content">
+        <span class="message__author"></span>
+        <div class="message__info">
+          <span class="message__bubble">그치그치!! 맞지!!!</span>
+          <span class="message__time">21:28</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="message-row message-row--own">
+      <div class="message-row__content">
+        <div class="message__info">
+          <span class="message__bubble">웅웅</span>
+          <span class="message__time">21:28</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="message-row">
+      <img src="./img/HACHIWARE_profile.png" />
+      <div class="message-row__content">
+        <span class="message__author"> 하치와레 </span>
+        <div class="message__info">
+          <span class="message__bubble">이 자세</span>
+          <span class="message__time"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="message-row">
+      <img src="./img/HACHIWARE_profile.png" />
+      <div class="message-row__content">
+        <span class="message__author"> </span>
+        <div class="message__info">
+          <span class="message__bubble"><img src="./img/스핑크스_하치와레.png" /></span>
+          <span class="message__time">21:29</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <form class="reply">
+    <div class="reply__column">
+      <i class="fa-regular fa-square-plus fa-lg"></i>
+    </div>
+
+    <div class="reply__column">
+      <input type="text" placeholder="Write a message" />
+      <i class="fa-regular fa-face-smile fa-lg"></i>
+      <button>
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+    </div>
+  </form>
+
+  <div id="no-mobile">
+    <span>Your screen is too big</span>
+  </div>
+
+  <script src="https://kit.fontawesome.com/f85af380fd.js" crossorigin="anonymous"></script>
+</body>
+
 </html>

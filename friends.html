@@ -1,204 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" href="css/styles.css" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Kokoa Clone</title>
-  </head>
-  <body>
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span>No Service</span>
-        <i class="fa-solid fa-wifi"></i>
-      </div>
-      <div class="status-bar__column">
-        <span>18:43</span>
-      </div>
-      <div class="status-bar__column">
-        <span>100%</span>
-        <i class="fa-solid fa-battery-full fa-lg"></i>
-        <i class="fa-solid fa-bolt"></i>
-      </div>
+
+<head>
+  <link rel="stylesheet" href="css/styles.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to Kokoa Clone</title>
+</head>
+
+<body>
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <i class="fa-solid fa-wifi"></i>
     </div>
+    <div class="status-bar__column">
+      <span>18:43</span>
+    </div>
+    <div class="status-bar__column">
+      <span>100%</span>
+      <i class="fa-solid fa-battery-full fa-lg"></i>
+      <i class="fa-solid fa-bolt"></i>
+    </div>
+  </div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
-      <div class="screen-header__icons">
-        <span> <i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-        <span><i class="fa-solid fa-music fa-lg"></i></span>
-        <span><i class="fa-solid fa-gear fa-lg"></i></span>
+  <header class="screen-header">
+    <h1 class="screen-header__title">Friends</h1>
+    <div class="screen-header__icons">
+      <span> <i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+      <span><i class="fa-solid fa-music fa-lg"></i></span>
+      <span>
+        <a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a></span>
+    </div>
+  </header>
+
+  <a id="friends-display-link" href=""><i class="fa-solid fa-circle-info"></i>Friends' Names Display
+    <i class="fa-solid fa-chevron-right fa-xs"></i>
+  </a>
+
+  <main class="main-screen">
+    <div class="user-component">
+      <div class="user-component__column">
+        <img src="./img/CHIIKAWA_profile.png" class="user-component__avatar user-component__avatar--xl" />
+        <div class="user-component__text">
+          <h4 class="user-component__title">치이카와</h4>
+          <!-- <h6 class="user-component__subtitle">whatever</h6> -->
+        </div>
       </div>
-    </header>
-
-    <a id="friends-display-link" href=""
-      ><i class="fa-solid fa-circle-info"></i>Friends' Names Display
-      <i class="fa-solid fa-chevron-right fa-xs"></i>
-    </a>
-
-    <main class="main-screen">
+      <div class="user-component__column"></div>
+    </div>
+    <div class="friends-screen__channel">
+      <div class="friends-screen__channel-header">
+        <span>친구 7</span>
+        <i class="fa-solid fa-chevron-up fa-xs"></i>
+      </div>
       <div class="user-component">
         <div class="user-component__column">
-          <img
-            src="https://i.namu.wiki/i/KdlvyZyiKuSabilBJcnLro_Ac0K34Ns1btPtL1HvDdXk6OI7-PX8kvkpQarl6f6lFUaEx2IePB10x-lYbLALyW3jqFPAZSadIJ2o4fMqMKZeolf9L9vb62aA95zFllqsZ-90ST6TCJbGyD01N5MbiQ.webp"
-            class="user-component__avatar user-component__avatar--xl"
-          />
+          <img src="./img/HACHIWARE_profile.png" class="user-component__avatar user-component__avatar--sm" />
           <div class="user-component__text">
-            <h4 class="user-component__title">치이카와</h4>
-            <!-- <h6 class="user-component__subtitle">whatever</h6> -->
+            <h4 class="user-component__title user-component__title--not-bold">
+              하치와레
+            </h4>
           </div>
         </div>
         <div class="user-component__column"></div>
       </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>친구 7</span>
-          <i class="fa-solid fa-chevron-up fa-xs"></i>
-        </div>
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="https://i.namu.wiki/i/S3_Y0_fB3jfViXl80GUgDZeR0Ku_7V61o0s-gSHEamtqTMJgJvDrzhy6Ou-hwjjaEs_7R0RDeUnrklwNW0EnBhRrWvIyaupFtg2FP-x0zd76238VbjifW6UN1btxI1jMlGdF3d0P85Tx1CFlzruzhA.webp"
-              class="user-component__avatar user-component__avatar--sm"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--not-bold">
-                하치와레
-              </h4>
-            </div>
-          </div>
-          <div class="user-component__column"></div>
-        </div>
 
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="https://i.namu.wiki/i/EcCentFJJxKlwrX4uMxUUf7knLExUL-wpImhd0FBUhHOLHe2Ch83ceBtv46St1vK_hw4b4zYvQKZYy27CbNGrXIUQYkexh-vgJaWmS7zt0V7wZB75UO5cvB487TOBV78UeRY4adNHt8YdX8TVdFlYQ.webp"
-              class="user-component__avatar user-component__avatar--sm"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--not-bold">
-                우사기
-              </h4>
-            </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="./img/USAGI_profile.jpg" class="user-component__avatar user-component__avatar--sm" />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">
+              우사기
+            </h4>
           </div>
-          <div class="user-component__column"></div>
         </div>
-
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="https://i.namu.wiki/i/9F_wMfQEN698U_iNAG3lTc5bZ-fx0l6Vf6LOLBMrrG4Drka84HNXIBxccZozaqBNUmQpYFhVnKWbc5A0cwiYQrvE-vyfU2u6jjn6ZHHsopIlYcWKICZyyLrmsmJcJPWLacWbjedTF0qotGjLZeMjgQ.webp"
-              class="user-component__avatar user-component__avatar--sm"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--not-bold">
-                쿠리만쥬
-              </h4>
-            </div>
-          </div>
-          <div class="user-component__column"></div>
-        </div>
-
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="https://i.namu.wiki/i/2e7xax1WcoNxB01H_uOT5b-VA8mF2mLTQyxSweGrLkS2ubLO-Id4yDrfrOtRYN8oKEeJ2SxSJus1GDNUHaq7KDh1dZVLeXMcGyDoLhbiGKvWdZKEi2VyOoD-gKyJ9dq_RpEa7sf2HGuer9tpgCvUSQ.webp"
-              class="user-component__avatar user-component__avatar--sm"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--not-bold">
-                모몽가
-              </h4>
-            </div>
-          </div>
-          <div class="user-component__column"></div>
-        </div>
-
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="https://i.namu.wiki/i/kkNGfCGNwZeu1p4FLve6_ZuSsOOsH2MCuQfsl88iFnOHAa3HcEOurUJvlqAfdLyg3Rzv7_xizBzxZIPhIkKMxHYX-4YRHdkVDnD2KbDe_aRVyh4pQuGBj4hWHYqA8_P92av3aObUosFnwSl7NJ3DLQ.webp"
-              class="user-component__avatar user-component__avatar--sm"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--not-bold">
-                랏코
-              </h4>
-            </div>
-          </div>
-          <div class="user-component__column"></div>
-        </div>
-
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="https://i.namu.wiki/i/bNlnXJXPk-H_45_VrbxDpDVbQoTan4P0gUnwYKZg-GPk7itIvXpEZKsRQnBvKNrUEW1otR919yRHQW_NXn2FMIJQ0G1ub5DUvU4aHfXiPYA_zKxoCOXd7cSSZNh6KGg6wezMIJpP2OE9hth-923RYg.webp"
-              class="user-component__avatar user-component__avatar--sm"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--not-bold">
-                시사
-              </h4>
-            </div>
-          </div>
-          <div class="user-component__column"></div>
-        </div>
-
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="https://i.namu.wiki/i/hD2QfJ25g4G5UQyVhXmliLQ46lHMPVFvM84buGSYx5k1SscaHVRzKqbtw0HftirQG8VM1FZC2GAUZaKBGU39I5Ar0IcZ1RFK6cpbutDqGdZFPqwX91P6fsR0S5a50KMzfXJH0cyVKxr0LD4XYAVr6Q.webp"
-              class="user-component__avatar user-component__avatar--sm"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--not-bold">
-                카니
-              </h4>
-            </div>
-          </div>
-          <div class="user-component__column"></div>
-        </div>
+        <div class="user-component__column"></div>
       </div>
-    </main>
 
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__btn">
-          <a class="nav__link" href="friends.html">
-            <i class="fa-solid fa-user fa-2x"></i>
-          </a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">2</span>
-            <i class="fa-regular fa-comment fa-2x"></i>
-          </a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="find.html">
-            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
-          </a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="more.html">
-            <span class="nav__new-notification"></span>
-            <i class="fa-solid fa-ellipsis fa-2x"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <div id="splash-screen">
-      <i class="fa-solid fa-comment"></i>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="./img/KURIMANJU_profile.jpg" class="user-component__avatar user-component__avatar--sm" />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">
+              쿠리만쥬
+            </h4>
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="./img/MOMONGA_profile.png" class="user-component__avatar user-component__avatar--sm" />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">
+              모몽가
+            </h4>
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="./img/RAKKO_profile.png" class="user-component__avatar user-component__avatar--sm" />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">
+              랏코
+            </h4>
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="./img/SHISA_profile.png" class="user-component__avatar user-component__avatar--sm" />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">
+              시사
+            </h4>
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="./img/KANI_profile.png" class="user-component__avatar user-component__avatar--sm" />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">
+              카니
+            </h4>
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
     </div>
+  </main>
 
-    <div id="no-mobile">
-      <span>Your screen is too big ㅠㅠ</span>
-    </div>
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__btn">
+        <a class="nav__link" href="friends.html">
+          <i class="fa-solid fa-user fa-2x"></i>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="chats.html">
+          <span class="nav__notification badge">2</span>
+          <i class="fa-regular fa-comment fa-2x"></i>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="find.html">
+          <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="more.html">
+          <span class="nav__new-notification"></span>
+          <i class="fa-solid fa-ellipsis fa-2x"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div id="splash-screen">
+    <i class="fa-solid fa-comment"></i>
+  </div>
 
-    <script
-      src="https://kit.fontawesome.com/f85af380fd.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <div id="no-mobile">
+    <span>Your screen is too big</span>
+  </div>
+
+  <script src="https://kit.fontawesome.com/f85af380fd.js" crossorigin="anonymous"></script>
+</body>
+
 </html>

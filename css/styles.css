@@ -31,4 +31,5 @@ body::-webkit-scrollbar {
 
 .main-screen {
   padding: 0px var(--horizontal-space);
+  padding-bottom: 70px; /* 추가된 패딩 */
 }
